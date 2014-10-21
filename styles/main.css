@@ -1,0 +1,72 @@
+/* reset */
+ul,li{
+        margin-left: 0;
+}
+
+.container {
+    min-width: 1000px;
+}
+/* navigation */
+/* layout top */
+.menuTop .nav{
+    height: 39px;
+    background-image: url(../images/bgMenuTop.gif);
+    background-repeat: repeat-x;
+}
+.menuTop .nav .botLine {
+    height: 42px;
+    background-image: url(../images/bgSpaceList.gif);
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+}
+.menuTop .nav .count {
+    display: inline-block;
+    height: 38px;
+    width: 98px;
+    margin: 3px 0 0 5px;
+    background-image: url(../images/bgToSpace.png);
+    background-repeat: no-repeat;
+    background-position: -100px -200px;
+    position: relative;
+}
+.menuTop .nav .count .num {
+    position: absolute;
+    right: 25px;
+    top: 7px;
+}
+.menuTop .nav .menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.menuTop .nav .menu li {
+    float: left;
+}
+.menuTop .nav .menu a {
+    display: inline-block;
+    width: 55px;
+    height: 39px;
+    text-indent: -99999px;
+    background: url(../images/team_menu_top.gif) no-repeat;
+}
+
+/* profile */
+.side .profile .avatar img {
+    height: 26px;
+    border: 2px solid #afb7c7;
+    border-radius: 3px;
+}
+.side .profile .name {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    max-width: 82px;
+    width: expression(this.clientWidth>81?"82px":"auto");
+    height: 30px;
+    line-height: 30px;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
